@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galeria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Galeria</h1>
+    <ul class="gallery">
+        <li class="thumbnail"><img tabindex="0" src="pics/beach-ga23f85ffd_1920.jpg" alt=""></li>
+        <li class="thumbnail"><img tabindex="0" src="pics/nature-g4a3ceee63_1920.jpg" alt=""></li>
+        <li class="thumbnail"><img tabindex="0" src="pics/sea-g6ea80dc8a_1280.jpg" alt=""></li>
+        <li class="thumbnail"><img tabindex="0" src="pics/sunrise-g4982a879f_1920.jpg" alt=""></li>
+        
+    </ul>
+    <div class="popup hidden">
+        <button aria-label="Zamknij popup" class="popup__close">X</button>
+        <img src="" alt="" class="popup__img">
+        <button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left"><</button>
+        <button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">></button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
