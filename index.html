@@ -10,17 +10,25 @@
 <body>
     <h1>Galeria</h1>
     <ul class="gallery">
-        <li class="thumbnail"><img tabindex="0" src="pics/beach-ga23f85ffd_1920.jpg" alt=""></li>
-        <li class="thumbnail"><img tabindex="0" src="pics/nature-g4a3ceee63_1920.jpg" alt=""></li>
-        <li class="thumbnail"><img tabindex="0" src="pics/sea-g6ea80dc8a_1280.jpg" alt=""></li>
-        <li class="thumbnail"><img tabindex="0" src="pics/sunrise-g4982a879f_1920.jpg" alt=""></li>
+        <li class="thumbnail"><span><img tabindex="0" src="pics/beach-ga23f85ffd_1920.jpg" alt="1"></span></li>
+        <li class="thumbnail"><span></span><img tabindex="0" src="pics/nature-g4a3ceee63_1920.jpg" alt="2"></span></li>
+        <li class="thumbnail"><span></span><img tabindex="0" src="pics/sea-g6ea80dc8a_1280.jpg" alt="3"></span></li>
+        <li class="thumbnail"><span></span><img tabindex="0" src="pics/sunrise-g4982a879f_1920.jpg" alt="4"></span></li>
+        <li class="thumbnail"><span></span><img tabindex="0" src="https://unsplash.it/600/400" alt="5"></span></li>
+        <li class="thumbnail"><span></span><img tabindex="0" src="https://unsplash.it/600/401" alt="6"></span></li>
         
     </ul>
     <div class="popup hidden">
         <button aria-label="Zamknij popup" class="popup__close">X</button>
+        
+            
+        <span class="title">Image <p class="current-img"></p> of <p class="total-img"></p></span>
+              
+            
         <img src="" alt="" class="popup__img">
         <button aria-label="Poprzednie zdjęcie" class="popup__arrow popup__arrow--left"><</button>
         <button aria-label="Następne zdjęcie" class="popup__arrow popup__arrow--right">></button>
+        
     </div>
     <script src="app.js"></script>
 </body>
